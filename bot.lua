@@ -1,11 +1,11 @@
-local bot_api_key = "286497323:AAEmSzyHdHPWkiXUH3AifKmicBk8nhGDsr8" --Your telegram bot api key
+local bot_api_key = "318199206:AAGRgMbx_TTSNaRH2-IJbCKci5CPHDEKZWo" --Your telegram bot api key
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[ ]] 
 
 function is_admin(msg)
   local var = false
-  local admins = {216507730}-- آیدیتون
+  local admins = {251633180}-- آیدیتون
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
